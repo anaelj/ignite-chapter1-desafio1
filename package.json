@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
+    
   },
   "dependencies": {
     "react": "^17.0.1",
